@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
+
+/* home page css start */
+/* new user image row1 start */
+.newUserImage {
+    display: flex;
+    width: 1290px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 25px;
+}
+
+.newUserImage img {
+    width: 100%;
+    height: auto;
+}
+
+/* new user image row1 end */
+/* one image 100% width silder start */
+.oneImageSlider {
+    width: 100%;
+}
+
+.oneImageSlider img {
+    width: 100%;
+    height: auto;
+}
+
+/* one image 100% width silder end */
+/* heading and six images silder start */
+.headingAndSixImagesSilder {
+    padding-top: 20px;
+}
+
+.headingAndSixImagesSilder h3,
+.row3 h3 {
+    padding: 44px;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    color: #282C3F;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.sixImagesilder {
+    display: flex;
+}
+
+.sixImagesilder div {
+    flex-basis: 16.67%;
+}
+
+.sixImagesilder div img {
+    width: 100%;
+}
+
+/* heading and six images silder end */
+/* row start */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 30px;
+    justify-content: center;
+}
+.row div{
+    flex-basis: 15.67%;
+}
+.row div img{
+    width: 100%;
+}
+/* row end */
+
+.row2 div{
+    flex-basis: 16.67%;
+}
+.row2 div img{
+    width: 100%;
+}
+/* three images row end */
+/* home page css end */

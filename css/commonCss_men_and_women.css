@@ -1,0 +1,90 @@
+/* common css page start for men and women */
+/* full width image start */
+.full_width_img{
+    width: 100%;
+    padding-top: 40px;
+}
+.full_width_img img{
+    width: 100%;
+}
+/* full width image end */
+/* four image row start */
+.four_column_img{
+    padding-top: 55px;
+    padding-left: 30px;
+}
+.four_column_img h2{
+    font-size: 25px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.four_img{
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
+.four_img div{
+    flex-basis: 22%;
+}
+.four_img div img{
+    width: 100%;
+    height: 100%;
+}
+/* four image row end */
+/* six image row start */
+.six_column_img{
+    padding-top: 55px;
+    padding-left: 30px;
+}
+.six_column_img h2{
+    font-size: 25px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.six_img{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly
+}
+.six_img div{
+    flex-basis: 16%;
+}
+.six_img div img{
+    width: 100%;
+    height: 100%;
+}
+/* six image row end */
+/* five image row start */
+.five_column_img{
+    padding-top: 55px;
+    padding-left: 30px;
+}
+.five_column_img h2{
+    font-size: 25px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.five_img{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly
+}
+.five_img div{
+    flex-basis: 16%;
+}
+.five_img div img{
+    width: 100%;
+    height: 100%;
+}
+/* five image row end */
+/* common css page end for men and women */

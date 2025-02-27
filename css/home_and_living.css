@@ -1,0 +1,166 @@
+/* home and live css page start */
+/* full width image start */
+.fix_width_img {
+    width: 100%;
+
+}
+
+.fix_width_img div {
+    width: 1300px;
+    padding: 30px 0px 2px 60px;
+}
+
+.fix_width_img div img {
+    width: 100%;
+    height: 100%;
+}
+
+/* full width image end` */
+/* images and links section start */
+.images_and_links {
+    width: 100%;
+    display: flex;
+    padding-bottom: 20px;
+    gap: 1%;
+}
+
+.left_images {
+    width: 73%;
+}
+
+.left_images h3 {
+    padding: 50px 0 50px 90px;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #3E4152;
+    font-weight: bold;
+}
+
+.two_img_rows {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+    padding-left: 60px;
+}
+
+.two_img_rows div {
+    flex-basis: 48%;
+    overflow: hidden;
+}
+
+.two_img_rows :hover img{
+    transform: scale(1.1);
+}
+.two_img_rows div img {
+    width: 100%;
+    height: 100%;
+    transition-duration: 2s;
+}
+
+.right_links {
+    flex-basis: 20%;
+}
+
+.right_links p {
+    padding-bottom: 20px;
+}
+
+.right_links ul li {
+    padding: 0px 0px 4px 0px;
+}
+
+.right_links ul li a:hover {
+    text-decoration: underline;
+}
+
+.right_links ul li a {
+    text-decoration: none;
+}
+
+.right_links p,
+.right_links ul li a {
+    color: #3E4152;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+/* images and links section end */
+/* three img row start */
+.three_img_row {
+    background: #EEEEEE;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.get_inspire {
+    width: 100%;
+}
+
+.get_inspire img {
+    width: 100%;
+    height: 100%;
+}
+
+.three_img_in_one_line {
+    display: flex;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    height: auto;
+    gap: 1%;
+}
+
+.three_img_in_one_line div {
+    flex-basis: 31%;
+    overflow: hidden;
+}
+
+.three_img_in_one_line :hover img {
+    transform: scale(1.1);
+}
+
+.three_img_in_one_line div img {
+    transition-duration: 2s;
+    width: 100%;
+    height: 100%;
+}
+
+/* three img row end */
+/* five img row start */
+.five_img_row {
+    width: 100%;
+    padding-left: 60px;
+}
+
+.feature_brands {
+    width: 100%;
+}
+
+.feature_brands img {
+    width: 100%;
+    height: 100%;
+}
+.five_img_in_one_line {
+    display: flex;
+    width: 100%;
+    gap: 1%;
+}
+
+.five_img_in_one_line div {
+    flex-basis: 18%;
+    overflow: hidden;
+}
+
+.five_img_in_one_line div img {
+    transition-duration: 2s;
+    width: 100%;
+    height: 100%;
+}
+
+.five_img_in_one_line :hover img {
+    transform: scale(1.1);
+
+}
+
+/* five img row end */
+/* home and live css page end */
